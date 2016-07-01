@@ -24,10 +24,12 @@
   <ItemGroup>
     <Content Include="www\app\app.js" />
     <Content Include="www\app\app.route.js" />
+    <Content Include="www\app\controllers\collapse-controller.js" />
     <Content Include="www\app\controllers\dropdown-controller.js" />
     <Content Include="www\app\controllers\home-controller.js" />
     <Content Include="www\app\controllers\tooltip-controller.js" />
     <Content Include="www\index.html" />
+    <Content Include="www\pages\collapse.html" />
     <Content Include="www\pages\dropdown.html" />
     <Content Include="www\pages\home.html" />
     <Content Include="www\pages\menu.html" />

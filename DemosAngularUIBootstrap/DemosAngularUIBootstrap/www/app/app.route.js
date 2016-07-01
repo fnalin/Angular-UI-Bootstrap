@@ -21,6 +21,12 @@
                 controllerAs: "vm"
             })
 
+            .when("/collapse", {
+                templateUrl: "pages/collapse.html",
+                controller: "collapseController",
+                controllerAs:"vm"
+            })
+
             .when("/tooltip", {
                 templateUrl: "pages/tooltip.html",
                 controller: "toolTipController",
