@@ -18,6 +18,12 @@
             .when("/dropdown", {
                 templateUrl: "pages/dropdown.html",
                 controller: "dropDownController",
+                controllerAs: "vm"
+            })
+
+            .when("/tooltip", {
+                templateUrl: "pages/tooltip.html",
+                controller: "toolTipController",
                 controllerAs:"vm"
             });
     };
