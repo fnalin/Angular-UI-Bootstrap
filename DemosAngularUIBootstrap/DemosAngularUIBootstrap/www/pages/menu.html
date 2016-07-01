@@ -1,0 +1,21 @@
+﻿<div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed"
+                ng-init="navCollapsed=true"
+                ng-click="navCollapsed=!navCollapsed">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#/">Demos - Angular UI Bootstrap</a>
+    </div>
+    <div class="collapse navbar-collapse"
+         ng-class="{'in':!navCollapsed}">
+
+        <ul class="nav navbar-nav">
+            <li><a href="#/dropdown">DropDown</a></li>
+        </ul>
+
+    </div>
+</div>

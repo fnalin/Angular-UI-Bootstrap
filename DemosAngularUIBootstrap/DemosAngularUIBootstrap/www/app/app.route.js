@@ -1,15 +1,23 @@
 ﻿(function () {
     "use strict";
 
-    angular.module("demoUI").config(["$routeProvider", ConfigRotas]);
+    angular.module("demoUI").config(ConfigRotas);
 
-    function ConfigRotas($routeProvider) {
 
-        $routeProvider
+    ConfigRotas.$inject = ["$routeProvider"];
+    function ConfigRotas($rota) {
+
+        $rota
 
             .when("/", {
                 templateUrl: "pages/home.html",
                 controller: "homeController",
+                controllerAs: "vm"
+            })
+
+            .when("/dropdown", {
+                templateUrl: "pages/dropdown.html",
+                controller: "dropDownController",
                 controllerAs:"vm"
             });
     };
