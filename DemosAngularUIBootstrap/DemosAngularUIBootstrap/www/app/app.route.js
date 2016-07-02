@@ -24,13 +24,23 @@
             .when("/collapse", {
                 templateUrl: "pages/collapse.html",
                 controller: "collapseController",
-                controllerAs:"vm"
+                controllerAs: "vm"
             })
 
             .when("/tooltip", {
                 templateUrl: "pages/tooltip.html",
                 controller: "toolTipController",
-                controllerAs:"vm"
+                controllerAs: "vm"
+            })
+
+             .when("/tabs", {
+                 templateUrl: "pages/tabs.html",
+                 controller: "tabsController",
+                 controllerAs: "vm"
+             })
+
+            .otherwise({
+                redirectTo: '/'
             });
     };
 

@@ -27,12 +27,15 @@
     <Content Include="www\app\controllers\collapse-controller.js" />
     <Content Include="www\app\controllers\dropdown-controller.js" />
     <Content Include="www\app\controllers\home-controller.js" />
+    <Content Include="www\app\controllers\tabs-controller.js" />
     <Content Include="www\app\controllers\tooltip-controller.js" />
     <Content Include="www\index.html" />
     <Content Include="www\pages\collapse.html" />
     <Content Include="www\pages\dropdown.html" />
     <Content Include="www\pages\home.html" />
     <Content Include="www\pages\menu.html" />
+    <Content Include="www\pages\tab-3.html" />
+    <Content Include="www\pages\tabs.html" />
     <Content Include="www\pages\tooltip.html" />
   </ItemGroup>
   <ItemGroup />

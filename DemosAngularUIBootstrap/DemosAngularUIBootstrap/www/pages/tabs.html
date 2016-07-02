@@ -1,0 +1,39 @@
+﻿<style type="text/css">
+    form.tab-form-demo .tab-pane {
+        margin: 20px 20px;
+    }
+</style>
+
+<h1>{{vm.title}}</h1>
+
+
+
+<form name="outerForm" class="tab-form-demo">
+    <uib-tabset active="activeForm">
+        <uib-tab index="0" heading="Form Tab">
+            <ng-form name="nestedForm">
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" required class="form-control" required ng-model="vm.model.name" />
+                </div>
+            </ng-form>
+        </uib-tab>
+        <uib-tab index="1" heading="Tab One">
+            Some Tab Content
+        </uib-tab>
+        <uib-tab index="2" heading="Tab Two">
+            More Tab Content
+        </uib-tab>
+        <uib-tab index="3" heading="TAB 3">
+            papapap
+        </uib-tab>
+
+    </uib-tabset>
+</form>
+
+
+
+  Model:
+<pre>{{ vm.model | json}}</pre>
+  Nested Form:
+<pre>{{ outerForm.nestedForm | json}}</pre>
