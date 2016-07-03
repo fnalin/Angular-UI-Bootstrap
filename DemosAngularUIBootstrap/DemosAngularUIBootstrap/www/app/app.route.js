@@ -39,6 +39,12 @@
                  controllerAs: "vm"
              })
 
+             .when("/modal", {
+                 templateUrl: "pages/modal.html",
+                 controller: "modalController",
+                 controllerAs: "vm"
+             })
+
             .otherwise({
                 redirectTo: '/'
             });
